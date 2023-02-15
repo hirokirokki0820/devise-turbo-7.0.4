@@ -74,6 +74,9 @@ group :test do
   gem "webdrivers"
 end
 
+# .env用のgem
+gem "dotenv-rails"
+
 # devise (Turbo Streamへの対応バージョン)
 gem "devise", github: "heartcombo/devise", branch: "ca-turbo"
 gem "responders", "~> 3.1"
