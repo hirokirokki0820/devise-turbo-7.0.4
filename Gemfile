@@ -73,3 +73,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# devise (Turbo Streamへの対応バージョン)
+gem "devise", github: "heartcombo/devise", branch: "ca-turbo"
+gem "responders", "~> 3.1"
